@@ -1,0 +1,39 @@
+body
+{
+    width: 200px;
+    height: 165px;
+}
+
+#buttons
+{
+    width: 100%;
+}
+
+#counter_text
+{
+    font-family: 'Teko', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: -15px;
+    animation: slideInDown;
+    animation-duration: .5s;
+}
+
+#buttons
+{
+    text-align: center;
+    align-content: center;
+    display: inline-block;
+    width: 100%;
+}
+
+button
+{
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    border: none;
+    background-color: #dddddd;
+}
